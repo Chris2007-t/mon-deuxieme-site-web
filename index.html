@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lepatissier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><span>logo</span></a> 
+        <nav class="navbar">
+            <a href="#home">Acceuil</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+           <button class="btnlogin-popup">Connexion</button>
+        </nav>
+    </header>
+    <div class="connexion">
+        <span class="icon-close">
+            <ion-icon name="close">
+            </ion-icon></span>
+        <div class="form-box login">
+            <h2>Connexion</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail">
+                        </ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Mot de passe</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Se souvenir de moi
+                    </label>
+                    <a href="#">Mot de passe oublié?</a>
+                </div>
+                <button type="submit" class="btn">Connexion</button>
+                <div class="login-register">
+                    <p>Pas de compte?<a href="#" class="register-link"> Inscription</a></p>
+                </div>
+            </form>
+        </div>
+        
+
+        <div class="form-box register">
+            <h2>Inscription</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                       <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Utilisateur</label>
+                </div>
+                 <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail">
+                        </ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Mot de passe</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        J'accepte les termes & conditions
+                    </label>
+                   
+                </div>
+                <button type="submit" class="btn">Inscription</button>
+                <div class="login-register">
+                    <p>Compte existant?<a href="#" class="login-link"> Connexion</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+      <script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script nomodule src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " >   </script>
+</body>
+</html>
